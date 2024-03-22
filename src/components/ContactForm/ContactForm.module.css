@@ -1,0 +1,17 @@
+.form {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.field {
+  font: inherit;
+  padding: 4px;
+}
+.button {
+  margin: auto;
+  width: 110px;
+}
