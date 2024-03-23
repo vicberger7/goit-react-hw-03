@@ -27,10 +27,14 @@ export default function ContactForm({ onAddContact }) {
       <Form className={css.form}>
         <label>Name</label>
         <Field className={css.field} type="text" name="name" />
-        <ErrorMessage component="p" name="name" />
+        <ErrorMessage className={css.errorMessage} component="p" name="name" />
         <label>Number</label>
         <Field className={css.field} type="text" name="number" />
-        <ErrorMessage component="p" name="number" />
+        <ErrorMessage
+          className={css.errorMessage}
+          component="p"
+          name="number"
+        />
         <button className={css.button} type="submit">
           Add contact
         </button>
